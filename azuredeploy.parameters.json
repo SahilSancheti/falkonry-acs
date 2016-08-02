@@ -1,0 +1,27 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "dnsNamePrefix": {
+      "value": "sahiltest"
+    },
+    "agentCount": {
+      "value": 1
+    },
+    "agentVMSize" : {
+      "value": "Standard_D14_v2"
+    },
+    "linuxAdminUsername": {
+      "value": "sahil"
+    },
+    "orchestratorType": {
+      "value": "Swarm"
+    },
+    "masterCount": {
+      "value": 3
+    },
+    "sshRSAPublicKey": {
+      "value": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDc0vS544EToQtZudmzJ69jvPMHkz7I8xDggzVYhJjHXW3t5xsP2hr09Hlkpidih7CII199v6a2kG+SYRSekjrIu4s+Orcs9U0X4Dc9VZx5RGpN1CwVZx2/kwee2vYm3dEqAcGT85hTYoJjeb+goiS0N9evXW+tTr2k9Mpu30wU9bcp9/54Fflu8bOgURRk9T46qZeAj3+zvUkYQk2EHFuGajL3J4gfHzuB0sFsIpZLT+BZpoPJ8PJJDp+GW1xnbxTqTXO99nbJOoTAUa3ko51LofI9nAdO7zTvJf8g46ir/wSZQr9rJkcYlqKkHZy/dMV1UVuSkir7IskRDwv5ZfCG2O6YqwbAnfX4tT2pcQSAQtWsBseTekv4xxYoIJDeKXllMYPsr+ElRzlAOOUqZIw5W0QzOTjBnONZsXauUsEBPjN2Qzt8W5NAOPIxDOAIJlP/uCTyIXWYJIifSTMxHuLeMLLOD0A2032nGYqIr5VjkuVzPEcnfFqdTKVFQNqC41Wk9STsaZW84jaCZtZCHx+dPEq2FvQOxwUZL15UlyZr1zhfLj0nJ4hOI1YFkTaWH0797ht849lsRjtwzVoQ6fKDNOamiwu8JYbvJpNqUZeu07veh8Xb5dfWOkV19J61MeLH3yKDyCVXRRlZ7J+79z2ffZYRWe80Xe/TDWawqbUCIw== sahil.sancheti@falkonry.com"
+    }
+  }
+}
